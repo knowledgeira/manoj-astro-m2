@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astrology Microservice - Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+
+    {% if astrology_details %}
+        <h2>Hello, {{ astrology_details['name'] }}!</h2>
+        <p>Your life path number is {{ astrology_details['life_path_number'] }}</p>
+        <p>Your lucky number is {{ astrology_details['lucky_number'] }}</p>
+        <p>Your lucky planet is {{ astrology_details['lucky_planet'] }}</p>
+    {% elif error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+</body>
+</html>
+
