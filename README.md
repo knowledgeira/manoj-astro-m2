@@ -1,9 +1,7 @@
 # MJ_Kubernetes
-Bold letter are commands
 
+Below are the images inorder to learn basic microservices.
 
-1.chmod +x install_kubernetescluster.sh and run the script
-
-2.Use **vagrant status** to get names of machines and access them using **vagrant ssh {names}**
+https://hub.docker.com/repository/docker/knowledgeira/manoj-astro-m2/general*
 
 # manoj-astro-m2
